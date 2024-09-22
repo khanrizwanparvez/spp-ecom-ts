@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
-import { lazy } from "react"
+import { lazy, Suspense } from "react"
+import Loader from "./components/loader"
 
 const Home = lazy(()=> import("./pages/Home"))
 const Search = lazy(()=> import("./pages/Search"))
@@ -10,11 +11,13 @@ const App = () => {
     <Router>
       {/* Header */}
 
+      <Suspense fallback={<Loader />}>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/" element={<Search />} />
-        <Route path="/" element={<Cart />} />
+        <Route path="/search" element={<Search />} />
+        <Route path="/cart" element={<Cart />} />
       </Routes>
+      </Suspense>
     </Router>
   )
 }
