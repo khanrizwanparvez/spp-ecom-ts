@@ -8,3 +8,10 @@ cd project-name
 npm install
 npm run dev
 ```
+
+# Clean up the React App
+
+**Install SASS for styling**
+```
+npm i sass
+```
