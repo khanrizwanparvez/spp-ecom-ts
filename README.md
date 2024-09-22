@@ -15,3 +15,10 @@ npm run dev
 ```
 npm i sass
 ```
+
+# Setup Routing
+
+**Install react-router-dom for routing**
+```
+npm i react-router-dom
+```
