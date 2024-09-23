@@ -23,5 +23,7 @@ npm i sass
 npm i react-router-dom
 ```
 
-# Add lazy loading
-# Add Suspence for loading state
+**Add lazy loading**
+**Add Suspence for loading state**
+**Add/Create mixin, pages, components, assets for Admin Dashboard**
+**Install chart.js react-chartjs-2 react-table react-icons**
