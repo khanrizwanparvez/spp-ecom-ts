@@ -29,3 +29,4 @@ npm i react-router-dom
 **Install chart.js react-chartjs-2 react-table react-icons**
 
 # Create Header UI
+# Home UI & Product Card
