@@ -37,3 +37,5 @@ npm i react-router-dom
 # Home UI & Product Card
 Hero image is set to cover, but sometimes we need to show it in full size, when use as Carousel
 
+# Create Cart Page
+# Create Shipping Page
