@@ -1,8 +1,8 @@
 # MERN Full Stack Ecommerce App
 
-# !--- FRONTEND Full Stack Ecommerce App ---!
+# Full Stack Ecommerce App FRONTEND
 
-* Create React App using Vite
+1. Create React App using Vite
 
 ```
 npx create vite@latest project-name
@@ -11,78 +11,88 @@ npm install
 npm run dev
 ```
 
-* Clean up the React App
+- Clean up the React App
 
-* Install SASS for styling
+2. Install SASS for styling
 
 ```
 npm i sass
 ```
 
-* Setup Routing
+3. Setup Routing
 
-* Install react-router-dom for routing
+- Install react-router-dom for routing
 
 ```
 npm i react-router-dom
 ```
 
-* Add lazy loading
-* Add Suspence for loading state
-* Add/Create mixin, pages, components, assets for Admin Dashboard
-* Install chart.js react-chartjs-2 react-table react-icons
+- Add lazy loading
+- Add Suspence for loading state
 
-* Create Header UI
+4. Create Admin Dashboard
 
-* Home UI & Product Card
+- Add/Create mixin, pages, components, assets for Admin Dashboard
 
-Hero image is set to cover, but sometimes we need to show it in full size, when use as Carousel
+- Install chart.js react-chartjs-2 react-table react-icons
 
-* Create Cart Page
+```
+npm i chart.js react-chartjs-2 react-table react-icons
+```
 
-* Create Shipping Page
+5. Create Header UI
 
-* Create Login Page
+6. Home UI & Product Card
 
-* Create Search Page
+- Hero image is set to cover, but sometimes we need to show it in full size, when use as Carousel
 
-* Create Orders Page
+7. Create Cart Page
 
-# !--- BACKEND Full Stack Ecommerce App ---!
+8. Create Shipping Page
 
-* Create Backend folder & goto /backend
+9. Create Login Page
+
+10. Create Search Page
+
+11. Create Orders Page
+
+# Full Stack Ecommerce App BACKEND
+
+1. Backend Initial Setup
+
+- Create Backend folder & goto /backend
 
 ```
 mkdir project-name
 cd /backend
 ```
 
-* Initialize Backend folder
+- Initialize Backend folder
 
 ```
 npm init
 ```
 
-* Install typeScript
-If you want to install it globally, run:
+- Install typeScript
+  - If you want to install it globally, run:
 
 ```
 npm i -g typescript
 ```
 
-If you want to use for current project, run:
+- If you want to use for current project, run:
 
 ```
 npm i --save-dev typescript ts-node
 ```
 
-* Initialize typescript
+- Initialize typescript
 
 ```
 tsc --init
 ```
 
-* Goto tsconfig.json clean and paste the following code
+- Goto tsconfig.json clean and paste the following code
 
 ```
 {
@@ -97,7 +107,7 @@ tsc --init
 }
 ```
 
-* Change initial package.json file
+- Change initial package.json file
 
 ```
 {
@@ -118,29 +128,29 @@ tsc --init
 
 ```
 
-* Create /src folder and app.ts file inside /src
+- Create /src folder and app.ts file inside /src
 
-* Install express for server
+- Install express for server
 
 ```
 npm i express
 ```
 
-* Install nodemon
+- Install nodemon
 
 ```
 npm i --save-dev nodemon
 ```
 
-* Install types for express, node for checking types
+- Install types for express, node for checking types
 
 ```
 npm i --save-dev @types/express @types/node
 ```
 
-* Listen from Server - code written in app.ts file
+- Listen from Server - code written in app.ts file
 
-* Run the follwing command to build & run server
+- Run the follwing command to build & run server
 
 ```
 tsc
