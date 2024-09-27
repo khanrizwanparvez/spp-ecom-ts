@@ -131,10 +131,10 @@ tsc --init
 
 - **Create /src folder and app.ts file inside /src**
 
-- **Install express for server**
+- **Install express for server & dotenv for Environment variables**
 
 ```
-npm i express
+npm i express dotenv
 ```
 
 - **Install nodemon**
@@ -156,4 +156,14 @@ npm i --save-dev @types/express @types/node
 ```
 tsc
 npm run dev
+```
+
+**2. Backend Basics & Folder Structure**
+
+- **Create following folders /controllers, /routes, /models, /middlewares, /types, /utils**
+
+**3. User Schema & Routes**
+- **Install mongoose for Database**
+```
+npm i mongoose
 ```
