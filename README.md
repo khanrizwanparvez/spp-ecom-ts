@@ -2,7 +2,7 @@
 
 # !--- FRONTEND Full Stack Ecommerce App ---!
 
-**Create React App using Vite**
+* Create React App using Vite
 
 ```
 npx create vite@latest project-name
@@ -11,59 +11,59 @@ npm install
 npm run dev
 ```
 
-**Clean up the React App**
+* Clean up the React App
 
-**Install SASS for styling**
+* Install SASS for styling
 
 ```
 npm i sass
 ```
 
-**Setup Routing**
+* Setup Routing
 
-**Install react-router-dom for routing**
+* Install react-router-dom for routing
 
 ```
 npm i react-router-dom
 ```
 
-**Add lazy loading**
-**Add Suspence for loading state**
-**Add/Create mixin, pages, components, assets for Admin Dashboard**
-**Install chart.js react-chartjs-2 react-table react-icons**
+* Add lazy loading
+* Add Suspence for loading state
+* Add/Create mixin, pages, components, assets for Admin Dashboard
+* Install chart.js react-chartjs-2 react-table react-icons
 
-**Create Header UI**
+* Create Header UI
 
-**Home UI & Product Card**
+* Home UI & Product Card
 
 Hero image is set to cover, but sometimes we need to show it in full size, when use as Carousel
 
-**Create Cart Page**
+* Create Cart Page
 
-**Create Shipping Page**
+* Create Shipping Page
 
-**Create Login Page**
+* Create Login Page
 
-**Create Search Page**
+* Create Search Page
 
-**Create Orders Page**
+* Create Orders Page
 
 # !--- BACKEND Full Stack Ecommerce App ---!
 
-**Create Backend folder & goto /backend**
+* Create Backend folder & goto /backend
 
 ```
 mkdir project-name
 cd /backend
 ```
 
-**Initialize Backend folder**
+* Initialize Backend folder
 
 ```
 npm init
 ```
 
-**Install typeScript**
+* Install typeScript
 If you want to install it globally, run:
 
 ```
@@ -76,13 +76,13 @@ If you want to use for current project, run:
 npm i --save-dev typescript ts-node
 ```
 
-**Initialize typescript**
+* Initialize typescript
 
 ```
 tsc --init
 ```
 
-**Goto tsconfig.json clean and paste the following code**
+* Goto tsconfig.json clean and paste the following code
 
 ```
 {
@@ -97,7 +97,7 @@ tsc --init
 }
 ```
 
-**Change initial package.json file**
+* Change initial package.json file
 
 ```
 {
@@ -118,29 +118,29 @@ tsc --init
 
 ```
 
-**Create /src folder and app.ts file inside /src**
+* Create /src folder and app.ts file inside /src
 
-**Install express for server**
+* Install express for server
 
 ```
 npm i express
 ```
 
-**Install nodemon**
+* Install nodemon
 
 ```
 npm i --save-dev nodemon
 ```
 
-**Install types for express, node for checking types**
+* Install types for express, node for checking types
 
 ```
 npm i --save-dev @types/express @types/node
 ```
 
-**Listen from Server - code written in app.ts file**
+* Listen from Server - code written in app.ts file
 
-**Run the follwing codes to build & run server**
+* Run the follwing command to build & run server
 
 ```
 tsc
