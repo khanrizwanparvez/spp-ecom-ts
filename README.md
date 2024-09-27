@@ -41,3 +41,4 @@ Hero image is set to cover, but sometimes we need to show it in full size, when 
 # Create Shipping Page
 # Create Login Page
 # Create Search Page
+# Create Orders Page
