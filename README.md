@@ -60,20 +60,20 @@ npm i chart.js react-chartjs-2 react-table react-icons
 
 **1. Backend Initial Setup**
 
-- ** Create Backend folder & goto /backend**
+- **Create Backend folder & goto /backend**
 
 ```
 mkdir project-name
 cd /backend
 ```
 
-- ** Initialize Backend folder**
+- **Initialize Backend folder**
 
 ```
 npm init
 ```
 
-- ** Install typeScript**
+- **Install typeScript**
 
 - If you want to install it globally, run:
 
@@ -87,13 +87,13 @@ npm i -g typescript
 npm i --save-dev typescript ts-node
 ```
 
-- ** Initialize typescript**
+- **Initialize typescript**
 
 ```
 tsc --init
 ```
 
-- ** Goto tsconfig.json clean and paste the following code**
+- **Goto tsconfig.json clean and paste the following code**
 
 ```
 {
@@ -108,7 +108,7 @@ tsc --init
 }
 ```
 
-- ** Change initial package.json file**
+- **Change initial package.json file**
 
 ```
 {
@@ -129,29 +129,29 @@ tsc --init
 
 ```
 
-- ** Create /src folder and app.ts file inside /src**
+- **Create /src folder and app.ts file inside /src**
 
-- ** Install express for server**
+- **Install express for server**
 
 ```
 npm i express
 ```
 
-- ** Install nodemon**
+- **Install nodemon**
 
 ```
 npm i --save-dev nodemon
 ```
 
-- ** Install types for express, node for checking types**
+- **Install types for express, node for checking types**
 
 ```
 npm i --save-dev @types/express @types/node
 ```
 
-- ** Listen from Server - code written in app.ts file**
+- **Listen from Server - code written in app.ts file**
 
-- ** Run the follwing command to build & run server**
+- **Run the follwing command to build & run server**
 
 ```
 tsc
